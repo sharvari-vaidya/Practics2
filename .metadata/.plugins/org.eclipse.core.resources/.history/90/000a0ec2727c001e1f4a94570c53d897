@@ -1,0 +1,16 @@
+package com.main.productService.service;
+
+
+import java.math.BigDecimal;
+
+import com.main.productService.entity.ProductEntity;
+import com.main.productService.model.ProductModel;
+
+public interface ProductService {
+	
+	public ProductModel getProductDetails(String name);
+
+	public int insertProduct(ProductEntity product);
+	
+
+}
